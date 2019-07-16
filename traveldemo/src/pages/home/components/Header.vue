@@ -1,8 +1,15 @@
 <template>
 	<div class="header">
-	  <div class="header-left">返回</div>
-	  <div class="header-input">内容</div>
-	  <div class="header-right">城市</div>
+	  <div class="header-left">
+	  	<span class="iconfont">&#xe6b7;</span>
+	  </div>
+	  <div class="header-input">
+	  	<span class="iconfont">&#xe633;</span>
+	  	输入城市/景点/游玩主题
+	  </div>
+	  <div class="header-right">城市
+	  	<span class="iconfont">&#xe600;</span>
+	   </div>
 	</div>
 </template>
 
@@ -13,27 +20,29 @@
 </script>
 
 <style lang="stylus" scoped>
+ @import '~styles/varibles.styl'
 /*1rem = html font-size =50px (86/100)*/
   .header
     width:100%
     display:flex
-    height:1rem
-    line-height:1rem
-    background:#00bcd4
+    height:0.8rem
+    line-height:0.8rem
+    background:$bgColor
     color:#fff
     .header-left
-       width:10%
+       width:8%
        float:left
     .header-right
-       width:15%
+       width:17%
        float:right
        text-align:center
     .header-input
+       padding-left:0.1rem
        flex:1
        background:#fff
-       height:0.5rem
-       margin-top:0.5rem
-       border-radius:0.2rem
+       height:0.6rem
+       margin-top:0.1rem
+       border-radius:0.1rem
        color:#ccc
-       line-height:0.5rem
+       line-height:0.6rem
 </style>
