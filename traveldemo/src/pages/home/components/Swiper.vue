@@ -18,7 +18,7 @@
    				pagination: '.swiper-pagination',
    				loop:true //支持循环轮播
    			},
-   			swiperList: [{
+   	 swiperList: [{
 			 id:'0001',
 			 imgUrl:"http://img1.qunarzz.com/piao/fusion/1802/e3/62ce7362ca051d02.jpg_640x200_6db551b7.jpg"
 			},{

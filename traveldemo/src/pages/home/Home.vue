@@ -2,6 +2,7 @@
 	<div>
 	<home-header></home-header>
 	<home-swiper></home-swiper>
+	<swiper-test></swiper-test>
 	</div>
 </template>
 
