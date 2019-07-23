@@ -7,10 +7,15 @@
 	  	<span class="iconfont">&#xe633;</span>
 	  	输入城市/景点/游玩主题
 	  </div>
+	  <!--点击跳转city页面-->
+	  
 	  <div class="header-right">
+	  	<router-link to='/city'>
 	  	{{this.city}}
 	  	<span class="iconfont">&#xe600;</span>
-	   </div>
+	   </router-link>
+	  </div>
+	  
 	</div>
 </template>
 
@@ -29,13 +34,14 @@
   .header
     width:100%
     display:flex
-    height:0.8rem
-    line-height:0.8rem
+    height:$headerHeight
+    line-height:$headerHeight
     background:$bgColor
     color:#fff
     .header-left
        width:8%
        float:left
+       color:#fff
     .header-right
        width:17%
        float:right
