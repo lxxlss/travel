@@ -11,7 +11,7 @@
 	  
 	  <div class="header-right">
 	  	<router-link to='/city'>
-	  	{{this.city}}
+	  	{{this.$store.state.city}}
 	  	<span class="iconfont">&#xe600;</span>
 	   </router-link>
 	  </div>
