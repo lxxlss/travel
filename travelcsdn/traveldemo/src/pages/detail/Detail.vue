@@ -1,21 +1,24 @@
 <template>
-	<div class="detail">
-    <detail-banner></detail-banner>
-	</div>
+  <div>
+  	<detail-banner></detail-banner>
+  	<detail-header></detail-header>
+  	<div class="content"></div>
+  </div>
 </template>
 
 <script>
 import DetailBanner from './components/Banner'
-export default {
-        name:'Detail',
-        components:{
-          DetailBanner: DetailBanner
-         }
-	 }
+import DetailHeader from './components/Header'
+export default{
+	name: 'Detail',
+	components: {
+		DetailBanner,
+		DetailHeader
+	}
+}
 </script>
 
 <style lang="stylus" scoped>
- @import '~styles/varibles.styl'
-/*1rem = html font-size =50px (86/100)*/
-  
+  .content
+    height: 50rem
 </style>
