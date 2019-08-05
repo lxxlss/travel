@@ -5,14 +5,14 @@
      class="header-abs" 
      to="/"
      v-show="showAbs">
-     <div class="iconfont header-abs-back">&#xe624;</div>
+     <div class="iconfont header-abs-back">&#xe6b7;</div>
    </router-link>
    <div 
      class="header-fixed" 
      v-show="!showAbs"
      :style="opacityStyle">
      <router-link to="/">
-       <div class="iconfont header-fixed-back">&#xe624;</div>
+       <div class="iconfont header-fixed-back">&#xe6b7;</div>
      </router-link>
      景点详情
    </div>
@@ -70,6 +70,7 @@ export default{
       color: #fff
       font-size: .4rem
   .header-fixed
+    z-index:999
     position: fixed
     top: 0
     left: 0
