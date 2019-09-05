@@ -34,7 +34,7 @@
        },
      methods: {
 		 getCityInfo () {
-			axios.get('http://localhost:8080/static/mork/city.json')
+			axios.get('http://localhost:8082/static/mork/city.json')
 			   .then(this.getCityInfoSucc)
 			},
 			getCityInfoSucc (res) {

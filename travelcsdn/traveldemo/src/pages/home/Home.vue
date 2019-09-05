@@ -35,7 +35,7 @@
       },
     methods: {
 		 getHomeInfo () {
-			axios.get('http://localhost:8080/static/mork/index.json')
+			axios.get('http://localhost:8082/static/mork/index.json')
 			   .then(this.getHomeInfoSucc)
 			},
 			getHomeInfoSucc (res) {
